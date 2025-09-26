@@ -1,0 +1,13 @@
+{
+  "name": "afk-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "mineflayer": "^4.16.0"
+  }
+}
