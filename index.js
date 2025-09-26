@@ -3,7 +3,7 @@ const express = require('express');
 
 // -------------- CONFIG --------------
 const HOST = process.env.HOST || 'TheHomies.play.hosting';
-const PORT = parseInt(process.env.PORT || '25565', 10);
+const PORT = parseInt(process.env.PORT || '51145', 10);
 const BOT_NAME = process.env.BOT_NAME || 'AFK_HELPER';
 const MC_VERSION = process.env.MC_VERSION || false;
 const CHAT_INTERVAL_MINUTES = parseInt(process.env.CHAT_INTERVAL_MINUTES || '10', 10);
@@ -71,3 +71,4 @@ function startBot() {
   bot.on('error', (err) => console.log('[bot] error', err?.message || err));
 }
 startBot();
+
